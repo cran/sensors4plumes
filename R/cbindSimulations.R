@@ -1,8 +1,8 @@
 ######################################################################
-# cbind.Simulations (by plume)                                       #
+# cbindSimulations (by plume)                                       #
 ######################################################################
 
-cbind.Simulations = function(
+cbindSimulations = function(
   ..., # Simulations objects; if locations are the same and as well names of values and plumes, plumes (and values) are combined 
   #  saveName, # filename for new file to be created, if missing, random unique name is used
   #  saveDir, 

@@ -1,5 +1,5 @@
-f65a003275398d3a4e7bfa6b181ea3ac *DESCRIPTION
-3aed21ab57ec52f7c9e20b8f3c3151f0 *NAMESPACE
+949f9fda4baa7e3e41b5a8df1095db4b *DESCRIPTION
+1afea04cd4633e447997124d56b47bbf *NAMESPACE
 2bb86349e1f6befdcfcd0fbee6203158 *R/SDF2simulations.R
 2f156e278d753716964bb3a2889dbbd3 *R/Simulations-class.R
 dd45714eca8e9889169e0b194234ded7 *R/Simulations-methods.R
@@ -9,9 +9,9 @@ c6e406e6b30f5df050d17af28c6cc841 *R/SpatialIndexDataFrame-methods.R
 ad33a38cafe647928e070f082b9bbab5 *R/SpatialPolygridDataFrame-class.R
 b83b853152087e78f012e1c226f8d729 *R/SpatialPolygridDataFrame-methods.R
 52c8cfb81eebc6a337c52373f9e7d59b *R/areaSDF.R
-01cc526a763422421f5c217c3b988f3f *R/cbindSimulations.R
+0a6c749f5831d4a3b62f6ec92cea1b68 *R/cbindSimulations.R
 618a5477bd20aff1f06ca450b9516244 *R/changeSimulationsPath.R
-1ff036a5b3040b2ef042b2ff5be57417 *R/completeSearch.R
+54943fb798ab16ecb58eb9e6456d8ce8 *R/completeSearch.R
 c0ba3ae8f9c70aa3a70db8afee86b506 *R/coordCentral.R
 ac93a9e2441a29ed69b82065a8a17a2d *R/extractSpatialDataFrame.R
 9ff5585619543f4045989b7990b81123 *R/fitMedianVariogram.R
@@ -68,7 +68,7 @@ b95afda2966704b843d8c3a967a3f17d *man/SimulationsSmall.Rd
 7b733282acc30758545d98941909beb5 *man/SpatialIndexDataFrame.Rd
 194df775b481f2eb093a2624a68f04bf *man/SpatialPolygridDataFrame.Rd
 ec4f31c90d57e4f01ea1de115224e51f *man/areaSDF.Rd
-2abef1807f0e904047b756f4cd6da3d0 *man/cbindSimulations.Rd
+3b52b6bc26952a0afd7decb18ae93a02 *man/cbindSimulations.Rd
 72cfa7f84f5e404a1f59298217d65f9e *man/changeSimulationsPath.Rd
 955c531b871fc90151201d2d980df7db *man/copySimulations.Rd
 6fb0792e8a6a3b4e2998246cf84a4d07 *man/extractSpatialDataFrame.Rd

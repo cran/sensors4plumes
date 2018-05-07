@@ -37,7 +37,7 @@ export(nLocations,
        points2polygrid,
        polygrid2grid,
        Simulations,
-       cbind.Simulations,
+       cbindSimulations,
        SDF2simulations,
        loadSimulations,
        extractSpatialDataFrame,
@@ -85,7 +85,6 @@ exportMethods(spplot,
               )
 S3method(cbind, SpatialPolygridDataFrame)
 S3method(cbind, SpatialIndexDataFrame)
-S3method(cbind, Simulations)
 S3method(subset, Simulations)
 S3method(plot, Simulations)
 #exportPattern("^[[:alpha:]]+")

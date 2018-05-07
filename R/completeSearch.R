@@ -37,7 +37,7 @@ completeSearch = function(Detectable,
   if(M < lowerLimit){# aim at detection of more plumes than exist
     warning(paste("There are only", M, "columns. The given limit must not exceed this number."))
     i = 0
-    break
+    #break
   }
 
   if (M < n){# aim to use more than one sensor per plume
@@ -53,7 +53,7 @@ completeSearch = function(Detectable,
   if(dim(cDetectable)[1] < n){
     print(paste("There are only", dim(cDetectable)[1], "different locations, so you cannot search for", n, "sensors."))
     i = 0
-    break
+    #break
   }
 
   # ------------------- allocate parameters ---------------------------------- #

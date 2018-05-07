@@ -1,6 +1,6 @@
-\name{cbind.Simulations}
+\name{cbindSimulations}
 
-\alias{cbind.Simulations}% cannot be used directly as cbind, only as cbind.Simulations; why? (parameters differ)
+\alias{cbindSimulations}% cannot be used directly as cbind, only as cbindSimulations; why? (parameters differ)
 
 \title{Combine plumes of Simulations objects with coinciding parameters}
 
@@ -8,7 +8,7 @@
 \code{cbind}-like method for \code{\link{Simulations}}: if \code{locations} are the same and the names of \code{plumes} and the layer names of the \code{values} coincide, the plumes of two or more \code{Simulations} can be combined by combining the values of the \code{plumes} slot and of the \code{values} slot.
 }
 \usage{
-cbind.Simulations(..., nameSave = NA, overwrite = FALSE)
+cbindSimulations(..., nameSave = NA, overwrite = FALSE)
 }
 \arguments{
   \item{...}{\code{Simulations}}
@@ -27,7 +27,7 @@ A \code{Simulations} object; if it is too big to keep in memory, it is saved in 
 data(SimulationsSmall) 
 \dontrun{
 ## may create file
-SimulationsSmall2 = cbind.Simulations(SimulationsSmall, SimulationsSmall)
+SimulationsSmall2 = cbindSimulations(SimulationsSmall, SimulationsSmall)
 }
 }
 
